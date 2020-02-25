@@ -19,7 +19,7 @@ const screens = {
             headerTitleStyle: { color: '#FFF' },
             headerTintColor: '#FFF',
             headerLeft: () => null,
-            gesturesEnabled: false
+            gestureEnabled: false
         }
     }
 }

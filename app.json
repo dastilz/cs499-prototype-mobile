@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "CS499 Mobile Prototype 2/22/20",
     "slug": "cs499-prototype-mobile",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -25,6 +25,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": ""
   }
 }

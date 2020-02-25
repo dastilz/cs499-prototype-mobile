@@ -16,7 +16,24 @@ export default class TeacherPortal extends Component {
  render() {
   return (
       <View style={styles.container}>
-
+        <View style={styles.navigationContainer}>          
+        <Text style={styles.title}>Choose Navigation Option: </Text>
+            <TouchableOpacity 
+              style={styles.button}
+            >
+              <Text style={styles.buttonText}>Class Manager</Text>
+            </TouchableOpacity>
+            <TouchableOpacity 
+              style={styles.button}
+            >
+              <Text style={styles.buttonText}>Problem Manager</Text>
+            </TouchableOpacity>
+            <TouchableOpacity 
+              style={styles.button}
+            >
+              <Text style={styles.buttonText}>Student Portal</Text>
+            </TouchableOpacity>
+        </View>
       </View>
   )
   }
@@ -27,29 +44,25 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#5edfff'
   },
-  logoContainer: {
+  navigationContainer: {
     alignItems: 'center',
-    marginTop: '35%'
-  },
-  formContainer: {
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  input: {
-    width: '85%',
-    backgroundColor: '#b2fcff',
-    paddingHorizontal: 10,
-    height: 40,
-    marginBottom: 20,
-    color: '#000'
+    height: '40%',
+    marginTop: 20
   },
   button: {
       width: '85%',
       backgroundColor: '#3e64ff',
-      paddingVertical: 15
+      paddingVertical: 15,
+      marginTop: 20
   },
   buttonText: {
     textAlign: 'center',
+    color: '#FFF',
+    fontSize: 15
+  },
+  title: {
+    fontWeight: 'bold',
+    fontSize: 25,    
     color: '#FFF'
   }
 
